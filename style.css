@@ -1,0 +1,84 @@
+body,
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Monoton', cursive;
+  background: url(pexels-quintin-gellar-313782.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+h1 {
+  word-spacing: 1rem;
+  text-align: center;
+  font-size: 5rem;
+  color: #000000;
+  text-shadow: 3px 3px 0 #FFB492, -3px -3px 0 #BD4007, 5px 5px 2px #FFFFFF, -5px -5px 2px #FFFFFF;
+}
+
+hr {
+  border: 0;
+  height: 5px;
+  background: #FFFFFF;
+  border-width: 5px;
+  max-width: 50px;
+  display: block;
+}
+
+.buffer {
+  height: 2rem;
+}
+
+.section.col-12 { 
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: block;
+  margin: 30px auto;
+  border: 0;
+  font-weight: 700;
+  border-radius: 300px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  box-shadow: 5px 3px 0 rgba(255, 255, 255, 0.5), -5px -3px 0 rgba(255, 255, 255, 0.5);
+}
+
+.btn-xl {
+  padding: 1.5rem 3rem;
+}
+
+.btn-primary {
+  background-color: #FF7E43;
+}
+
+.btn-primary:hover {
+  background-color: #EE4B08;
+}
